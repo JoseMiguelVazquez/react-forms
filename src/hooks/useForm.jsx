@@ -31,3 +31,5 @@ function useForm (callback, defaults) {
     handleSubmit
   }
 }
+
+export default useForm
