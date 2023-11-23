@@ -30,6 +30,7 @@ const SimpleForm = () => {
             name='email'
             placeholder='correo@mail.com'
             id='simple-email'
+            value={email}
             onChange={(event) => setEmail(event.target.value)}
           />
 
@@ -38,6 +39,7 @@ const SimpleForm = () => {
             type='password'
             name='password'
             id='simple-password'
+            value={password}
             onChange={(event) => setPassword(event.target.value)}
           />
 
